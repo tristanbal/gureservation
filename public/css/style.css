@@ -1,0 +1,190 @@
+
+
+@font-face {
+  font-family: "elliot";
+  src: url("https://globeuniversity.globe.com.ph/gufrontend/fonts/FS Elliot Pro-Regular.otf")
+      format("opentype"),
+    url("https://globeuniversity.globe.com.ph/gufrontend/fonts/FS Elliot Pro-Bold.otf")
+      format("opentype"),
+    url("https://globeuniversity.globe.com.ph/gufrontend/fonts/FS Elliot Pro-Italic.otf")
+      format("opentype");
+}
+
+.start {
+    background-image: url('/images/stock/Stock05.jpg');
+    /*background-color: gray;*/
+    background:linear-gradient(to right, #0759A7 , #574696);
+    background-blend-mode: screen;
+    background-repeat: no-repeat;
+    background-position:center;
+    /*background-attachment: fixed;*/
+    background-size: cover;
+    font-family: 'Elliot' !important;
+    padding-top:30px;
+    padding-bottom: 30px;
+    
+ }
+
+
+body {
+    /*background-image: url('/images/stock/Stock05.jpg');
+    background-color: gray;*/
+    background-blend-mode: screen;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Elliot' !important;
+    
+ }
+ button.green-button{
+    /*font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
+    padding: 7px 20px !important;
+    border-radius: 5px;
+    margin: 0px 0px 0px 20px;
+    background-color: #3FBAD5;
+    border: 3px solid #3FBAD5;
+    border-radius: 5px;
+    transition: 0.8s;
+  }
+  
+
+  .btnfont {
+      color:white !important;
+      text-decoration: none !important;
+  }
+
+  .mycarddesign {
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+    -webkit-box-shadow: 6px 4px 22px -1px rgba(0,0,0,0.57);
+    -moz-box-shadow: 6px 4px 22px -1px rgba(0,0,0,0.57);
+    box-shadow: 6px 4px 22px -1px rgba(0,0,0,0.57);
+  }
+
+  .globeDarkBlueColor{
+      color: #0759a7;
+  }
+
+  .globeDarkBlueBackgroundColor{
+    background-color: #0759a7;
+  }
+
+
+  .globeLightBlueColor{
+      color: #3fbad5;
+  }
+
+  .globeLightBlueBackgroundColor{
+    background-color: #3fbad5;
+}
+
+
+  .globePurpleColor{
+      color: #574696;
+  }
+
+  
+  .globePurpleBackgroundColor{
+    background-color: #574696;
+}
+
+.car {
+    background-image: url('/images/stock/Stock05.jpg');
+    background-color:grey;
+    background-blend-mode: screen;
+}
+
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #0759a7;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+
+  @keyframes color-animation {
+    0% {
+      background-position: 0% 40%;
+    }
+    50% {
+      background-position: 100% 61%;
+    }
+    100% {
+      background-position: 0% 40%;
+    }
+  }
+  
+  .nav-wrapper {
+    /* background: linear-gradient(-30deg, #00A7F0, #574696); */
+    background: linear-gradient(-30deg, #0759a7, #574696, #3fbad5);
+    animation: color-animation 15s infinite linear alternate;
+    background-size: 600% 600%;
+  }
+
+  .stockbackground {
+      background-image: url('/images/stock/stock02.jpg');
+      background-size: cover;
+      background-color:black;
+      background-blend-mode: screen;
+      /* Add the blur effect */
+  /*filter: blur(8px);*/
+  -webkit-filter: blur(8px);
+  
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  }
+
+.indextext {
+  /*background-color: rgb(0,0,0);  Fallback color */
+  /*background-color: rgba(0,0,0, 0.4);  Black w/opacity/see-through */
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+.myfooter {
+  clear: both;
+  position: relative;
+  height: 40px;
+  margin-top: -40px;
+}
+
+/* New Home */
+.landingHome {
+  height:100vh;
+  background: linear-gradient(to right,
+  rgba(0,0,0,0.8),
+  rgba(87,70,150,0.8),
+  rgb(3, 118, 163)),
+  url('/images/stock/Stock05.jpg') no-repeat center !important;
+  background-size: cover !important;
+  filter:blur(5px);
+  filter:brightness(50%);
+  height:140%;
+  widows: 100%;
+}
